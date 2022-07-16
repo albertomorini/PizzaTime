@@ -1,0 +1,120 @@
+html {
+
+	height: 100%;
+
+	box-sizing: border-box;
+
+}
+body{
+
+	background-color: #f2f2f2;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+#titolo{
+	background-color: #2b2b2b;
+}
+h1{
+	text-align: center;
+	border-bottom: solid black 2px;
+}
+
+#main{
+	margin-top: -24px;
+	border-radius: 0px;
+	background-color: #EDEDED;
+	padding-top: 17px;
+	padding-left: 27px;
+
+}
+
+.qnt{
+  width: 57px;
+  height: 32px;
+  border-radius: 4px;
+}
+#tabRiepilogoOrdine{
+  width: 750px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 15px;
+  background-color: #b5a8a8;
+  border-radius: 25px;
+
+}
+#scelta{
+  width: 750px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 20px;
+}
+
+label{
+  font-size: 22px;
+}
+input[type=checkbox]{
+  margin-right: 20px;
+  cursor: pointer;
+}
+input[type=text]{
+  width: 320px;
+  border-radius: 5px;
+}
+input[type=number]{
+  border-radius: 5px;
+}
+
+#btnsender{
+  margin-top: 25px;
+  width: 490px;
+  background-color: #2b699b;
+  margin-left: 20%;
+  border-radius: 10px;
+  font-size: 22px;
+  height: 36px;
+  margin-bottom: 20px;
+  height: 35px;
+  line-height: 10px;
+}
+#btnsender:hover{
+  background-color: #3a7aad;
+}
+.table-responsive {
+  display: table;
+}
+
+@media screen and (max-width: 600px){
+
+  #scelta{
+    width: 100%;
+  margin-top: 10px;
+  }
+  #tabRiepilogoOrdine{
+    width: 100%;
+
+  }
+  .qnt{
+    width: 40px;
+    height: 32px;
+    border-radius: 4px;
+  }
+  #btnsender{
+    width: 100%;
+    margin-left: 0%;
+
+  }
+  input[type=checkbox]{
+    margin-right: 2px;
+    cursor: pointer;
+  }
+  input[type=text]{
+    width: 200px;
+    border-radius: 5px;
+  }
+  input[type=number]{
+    width: 150px;
+    border-radius: 5px;
+  }
+
+}

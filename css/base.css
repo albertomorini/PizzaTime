@@ -1,0 +1,103 @@
+html {
+
+	height: 100%;
+
+	box-sizing: border-box;
+
+}
+body{
+
+	background-color: #f2f2f2;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+#titolo{
+	background-color: #2b2b2b;
+}
+h1{
+	text-align: center;
+	border-bottom: solid black 2px;
+}
+#main{
+	margin-top: -24px;
+	border-radius: 0px;
+	background-color: #EDEDED;
+	padding-top: 17px;
+	padding-left: 27px;
+
+}
+
+
+/*bottone dropdown*/
+#dropper{
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+#contdrop{
+	text-align:right;
+}
+
+input[type='checkbox'] { 
+
+	width: 20px;
+}
+input[type='number'] { 
+
+  border-radius: 7px;
+}
+
+/* RIEPILOGO ORDINE*/
+#btnProsegui {
+
+  color: white;
+
+  position: relative;
+
+
+
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: 40%;
+  padding: 1rem;
+
+  background-color: #2b699b;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 22px;
+
+  height: 50px;
+  width: 20%;
+  line-height: 10px;
+  margin-bottom: 15px;
+
+}
+#btnProsegui:hover{
+ background-color: #3a7aad;
+}
+.intTabella{
+  background-color: #3a7aad;
+}
+
+.table-responsive {
+  display: table;
+}
+
+
+@media screen and (max-width: 600px){
+
+  #listino{
+    width: 100%;
+  }
+
+  #contdrop{
+    text-align:left;
+  }
+  #btnProsegui{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+}
