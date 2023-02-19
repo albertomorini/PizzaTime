@@ -33,12 +33,12 @@ The status (accepted/modified/declined) of the order is visible both from custom
 ## Some pics:
 
 ### User's side:
-![Output example](https://github.com/albertomorini/albertomorini/blob/main/PizzaTime/img/github-user1.png)
-![Output example](https://github.com/albertomorini/albertomorini/blob/main/PizzaTime/img/github-user2.png)
-![Output example](https://github.com/albertomorini/albertomorini/blob/main/PizzaTime/img/github-user3.png)
+![Output example](./img/github-user1.png)
+![Output example](./img/github-user2.png)
+![Output example](./img/github-user3.png)
 
 
 ### Pizzeria's side:
-![Output example](https://github.com/albertomorini/albertomorini/blob/main/PizzaTime/img/github-pizz1.png)
-![Output example](https://github.com/albertomorini/albertomorini/blob/main/PizzaTime/img/github-pizz2.png)
-![Output example](https://github.com/albertomorini/albertomorini/blob/main/PizzaTime/img/github-pizz3.png)
+![Output example](./img/github-pizz1.png)
+![Output example](./img/github-pizz2.png)
+![Output example](./img/github-pizz3.png)
